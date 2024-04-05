@@ -14,5 +14,20 @@ public class Usuario {
         System.out.println(" Cor: " + c180.getCor());
         System.out.println(" Capacidade do tanque: " + c180.getCapacidadeTanque());
         System.out.println(" Valor total para completar o tanque: " + c180.valorTotalTanque());
+
+// Porsche Panamera:
+        Carro panamera = new Carro();
+
+        // Atributos:
+        panamera.setCor("Azul Royal");
+        panamera.setModelo("Porsche Panamera");
+        panamera.setCapacidadeTanque(80);
+
+        //Execução:
+        System.out.println("\nOpção 2: \n Modelo: " + panamera.getModelo());
+        System.out.println(" Cor: " + panamera.getCor());
+        System.out.println(" Capacidade do tanque: " + panamera.getCapacidadeTanque());
+        System.out.println(" Valor total para completar o tanque: " + panamera.valorTotalTanque());
+
     }
 }

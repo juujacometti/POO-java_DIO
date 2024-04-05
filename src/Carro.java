@@ -37,8 +37,8 @@ class Carro {
     }
 
     // Método do valor total para encher o tanque:
-    double valorTotalTanque (double valorCombustivel) {
-        valorCombustivel = 5.52;
+    double valorTotalTanque () {
+        double valorCombustivel = 5.52;
         return capacidadeTanque * valorCombustivel;
     }
 }
