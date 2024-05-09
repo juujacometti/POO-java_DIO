@@ -4,13 +4,19 @@ package Ex01Metodos_ObjMsg;// Exercício POO
 // Classe:
 class Carro {
 
-    //Atributos:
+//Atributos:
         String cor;
         String modelo;
         int capacidadeTanque;
 
-    //Construtor:
-    // Métodos:
+//Construtor:
+    public Carro(String cor,String modelo, int capacidadeTanque) {
+        this.cor = cor;
+        this.modelo = modelo;
+        this.capacidadeTanque = capacidadeTanque;
+    }
+
+// Métodos:
 
     // Cor
     void setCor(String cor) {
@@ -36,7 +42,7 @@ class Carro {
         return capacidadeTanque;
     }
 
-    // Método do valor total para encher o tanque:
+    // Calculo valor total para encher o tanque:
     double valorTotalTanque () {
         double valorCombustivel = 5.52;
         return capacidadeTanque * valorCombustivel;
