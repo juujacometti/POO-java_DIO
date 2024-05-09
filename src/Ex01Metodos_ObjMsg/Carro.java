@@ -1,4 +1,4 @@
-// Exercício POO
+package Ex01Metodos_ObjMsg;// Exercício POO
 // OBJETIVO 1: Criar uma classe. / OBJETIVO 2: Criar atributos para a classe. // OBJETIVO 3: Criar métodos. // OBJETIVO 4: Criar objetos.
 
 // Classe:
