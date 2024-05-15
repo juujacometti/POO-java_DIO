@@ -30,7 +30,8 @@ class Carro {
     void setModelo (String modelo) {
         this.modelo = modelo;
     }
-    String getModelo () {
+
+    public String getModelo () {
         return modelo;
     }
 
