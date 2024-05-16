@@ -1,6 +1,4 @@
-package Ex03PolimorfismoSobrescrita.Ex01;
-
-import Ex03PolimorfismoSobrescrita.Ex01.Funcionario;
+package Ex03UpcastDowncast;
 
 class Gerente extends Funcionario {
 

@@ -1,4 +1,4 @@
-package Ex03PolimorfismoSobrescrita.Ex01;
+package Ex03UpcastDowncast;
 
 public class Funcionario {
 
